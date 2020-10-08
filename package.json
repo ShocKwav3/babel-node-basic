@@ -1,0 +1,19 @@
+{
+  "name": "babel-node-basic",
+  "version": "1.0.0",
+  "description": "Just to test",
+  "scripts": {
+    "start": "nodemon --exec babel-node --inspect=0.0.0.0 src/app.js"
+  },
+  "main": "src/app.js",
+  "author": "ShocKwav3_",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
