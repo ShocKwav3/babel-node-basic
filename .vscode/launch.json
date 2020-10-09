@@ -13,7 +13,7 @@
             "trace": true,
             "address": "localhost",
             "localRoot": "${workspaceFolder}/src",
-            "remoteRoot": "/usr/src/app/babel-node-test/src",
+            "remoteRoot": "/usr/src/app/src",
             "protocol": "inspector",
             "sourceMaps": true,
             "smartStep": true

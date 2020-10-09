@@ -1,5 +1,5 @@
 FROM node:12
-WORKDIR /usr/src/app/babel-node-test
+WORKDIR /usr/src/app
 COPY package*.json ./
 RUN yarn install
 COPY . .
